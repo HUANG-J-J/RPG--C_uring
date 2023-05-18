@@ -119,7 +119,6 @@ bool isMOVE(int x,int y);
 	参数：void
 	返回值：void
 */
-
 void music_play();
 
 /*
