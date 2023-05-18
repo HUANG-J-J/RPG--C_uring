@@ -8,7 +8,7 @@
 
 
 /*
-	负责人：123
+	负责人：杖芒
 	功能：初始化游戏
 		初始化全局变量
 		初始化界面
@@ -21,7 +21,7 @@
 void initGAME();
 
 /*
-	 负责人：
+	 负责人：hanser
 	 功能：写入图片
 		  loadimage();
 		  ……
@@ -31,7 +31,7 @@ void initGAME();
 void loadIMG();
 	
 /*
-	负责人：
+	负责人：阿鹿
 	功能：写入音乐 
 	参数：void
 	返回值：void				 	 
@@ -39,7 +39,7 @@ void loadIMG();
 void loadMUSIC();
 
 /*
-	负责人：
+	负责人：杖芒
 	功能：根据全局变量location加载对应的地图
 		switch(location){
 		case 0:
@@ -62,7 +62,7 @@ void loadMUSIC();
 void loadMAP();
 
 /*
-	负责人：
+	负责人：如蕤
 	功能：界面跳转
 		根据全局变量options来控制程序的界面跳转。
 		while (1) {
@@ -90,7 +90,7 @@ void loadMAP();
 void view_option(void);
 
 /*
-	负责人：
+	负责人：暂时用简单的数值加减 hanser
 	功能：计算与小怪的战斗结果
 	参数：与主角战斗的小怪
 	返回值：战斗成功true，无法战斗false
@@ -98,7 +98,7 @@ void view_option(void);
 bool fight(int monster);
 
 /*
-	负责人：
+	负责人：hanser
 	功能：判断该坐标上是什么，是否能够移动，处理移动之后的结果
 		 遇到墙无法移动
 		 遇到门判断是否有钥匙
@@ -114,7 +114,7 @@ bool fight(int monster);
 bool isMOVE(int x,int y);
 
 /*
-	负责人：
+	负责人：暂时不用
 	函数功能：控制音乐播放
 	参数：void
 	返回值：void
@@ -123,7 +123,7 @@ bool isMOVE(int x,int y);
 void music_play();
 
 /*
-	负责人：
+	负责人：暂无
 	函数功能：读档游戏
 	参数：void
 	返回值：void
@@ -131,7 +131,7 @@ void music_play();
 void loadGAME();
 
 /*
-	负责人：
+	负责人：暂无
 	函数功能：存档游戏
 	参数：void
 	返回值：void
@@ -141,7 +141,7 @@ void saveGAME();
 //----------------view-----------------//
 
 /*
-	负责人：
+	负责人：如蕤
 	功能：开始游戏
 		初始化游戏
 		展示游戏界面
@@ -153,7 +153,7 @@ void saveGAME();
 void beginGAME();
 
 /*
-	负责人：
+	负责人：杖芒
 	功能:打开游戏菜单界面
 		展示背景
 			新的游戏：进入游戏界面
@@ -169,7 +169,7 @@ void beginGAME();
 void menu_view();
 
 /*
-	负责人：
+	负责人：杖芒
 	功能：配置游戏设置
 		音量开关：控制音乐
 	参数：void
@@ -178,7 +178,7 @@ void menu_view();
 void setting_view();
 
 /*
-	负责人：
+	负责人：杖芒  随便写点东西
 	功能：展示游戏说明
 		 游戏操作
 		 制作组名单
@@ -188,7 +188,7 @@ void setting_view();
 void introduction_view();
 
 /*
-	负责人：
+	负责人：如蕤
 	功能：打印游戏主界面
 		 包括地图、侧边栏等等……
 	参数：void
@@ -197,7 +197,7 @@ void introduction_view();
 void game_view();
 
 /*
-	负责人：
+	负责人：不同的NPC 不同对话 暂时不做
 	功能：展示对话信息
 	参数：遇到的npc/物件
 	返回值：void
@@ -205,7 +205,7 @@ void game_view();
 void words_view(int npc);
 
 /*
-	负责人：
+	负责人：如蕤 先用初版的魔塔地图
 	功能：打印地图
 	参数：void
 	返回值：void
@@ -213,7 +213,7 @@ void words_view(int npc);
 void printMAP();
 
 /*
-	负责人：
+	负责人：hanser
 	函数功能：移动
 			 若成功移动，需改变地图中的信息并重新打印地图
 	参数：void
